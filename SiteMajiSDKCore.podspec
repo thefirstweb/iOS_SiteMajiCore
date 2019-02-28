@@ -141,5 +141,5 @@ Pod::Spec.new do |s|
 	s.dependency 'TapjoySDK','12.2.0'
 	s.dependency 'Google-Mobile-Ads-SDK'
 	s.dependency 'InMobiSDK', '~> 7.2.4'
-
+  s.dependency 'imfad', '~> 2.0.3'
 end
