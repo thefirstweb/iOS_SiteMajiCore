@@ -16,7 +16,6 @@
 - (void)showInterstitalADWithViewController:(UIViewController *)vc;
 - (void)fetchAD;
 - (id)initWithPackageHash:(NSString *)packageHash;
-- (void)loadAdx;
 @property (nonatomic, weak) id <SMInterstitialADManagerProtocol> delegate;
 @property (nonatomic, weak) NSString *customProvider;
 @property (nonatomic, assign) BOOL isTestModeEnable;
@@ -25,8 +24,7 @@
 @protocol SMInterstitialADManagerProtocol
 -(void)adInterstitialDidFetchAd;
 -(void)adInterstitialDidShow;
--(void)adInterstitialDidRender;
--(void)adInterstitialVideoDidFinish;
 -(void)adInterstitialError:(NSError *)error;
 -(void)adInterstitialDidDismiss;
+-(void)adInterstitialDidClick;
 @end
