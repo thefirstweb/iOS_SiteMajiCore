@@ -1,6 +1,0 @@
-framework module SiteMajiSDK {
-  umbrella header "SiteMajiSDK.h"
-
-  export *
-  module * { export * }
-}
