@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SiteMajiSDKCore"
-  s.version      = "1.0.2"
+  s.version      = "1.1.0"
   s.summary      = "SiteMajiCoreSDK"
 
   # This description is used to generate tags and improve search results.
@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
   s.source_files  = "Classes", "SiteMajiSDK.framework/Headers/**/*.{h,m}"
-  s.vendored_frameworks = 'SiteMajiSDK.framework'
+  s.vendored_frameworks = ['lib/MTGSDK.framework','lib/MTGSDKInterstitialVideo.framework']
   s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
 

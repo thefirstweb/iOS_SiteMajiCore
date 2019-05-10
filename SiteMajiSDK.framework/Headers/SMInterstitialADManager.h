@@ -19,6 +19,7 @@
 @property (nonatomic, weak) id <SMInterstitialADManagerProtocol> delegate;
 @property (nonatomic, weak) NSString *customProvider;
 @property (nonatomic, assign) BOOL isTestModeEnable;
+@property (nonatomic, assign) BOOL isLogEnable;
 @end
 
 @protocol SMInterstitialADManagerProtocol
