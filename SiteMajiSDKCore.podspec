@@ -139,7 +139,7 @@ Pod::Spec.new do |s|
 	s.dependency 'Flurry-iOS-SDK/FlurrySDK' #Analytics Pod
 	s.dependency 'Flurry-iOS-SDK/FlurryAds' #Advertising Pod (requires Analytics)
 	s.dependency 'TapjoySDK','12.2.0'
-	s.dependency 'Google-Mobile-Ads-SDK'
+	s.dependency 'Google-Mobile-Ads-SDK','7.43.1'
 	s.dependency 'InMobiSDK', '~> 7.2.4'
   s.dependency 'imfad', '~> 2.0.3'
 end
