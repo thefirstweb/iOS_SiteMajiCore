@@ -29,7 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)adInterstitialVideoError:(NSError *)error;
 -(void)adInterstitialVideoDidDismiss;
 -(void)adInterstitialVideoDidClick;
--(void)adInterstitialVideoDidPlayFinish;
+//-(void)adInterstitialVideoDidPlayFinish;
 @end
 
 NS_ASSUME_NONNULL_END

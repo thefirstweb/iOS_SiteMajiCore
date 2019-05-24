@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SiteMajiSDKCore"
-  s.version      = "1.1.0"
+  s.version      = "2.0.0"
   s.summary      = "SiteMajiCoreSDK"
 
   # This description is used to generate tags and improve search results.
@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
   s.source_files  = "Classes", "SiteMajiSDK.framework/Headers/**/*.{h,m}"
-  s.vendored_frameworks = ['SiteMajiSDK.framework','lib/MTGSDK.framework','lib/MTGSDKInterstitialVideo.framework']
+  s.vendored_frameworks = ['SiteMajiSDK.framework','lib/MTGSDK.framework','lib/MTGSDKInterstitialVideo.framework','lib/InMobiSDK.framework']
   s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
 
@@ -136,10 +136,11 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-	s.dependency 'Flurry-iOS-SDK/FlurrySDK' #Analytics Pod
-	s.dependency 'Flurry-iOS-SDK/FlurryAds' #Advertising Pod (requires Analytics)
-	s.dependency 'TapjoySDK','12.2.0'
-	s.dependency 'Google-Mobile-Ads-SDK','7.43.1'
-	s.dependency 'InMobiSDK', '~> 7.2.4'
-  s.dependency 'imfad', '~> 2.0.3'
+  
+	# s.dependency 'Flurry-iOS-SDK/FlurrySDK' #Analytics Pod
+	# s.dependency 'Flurry-iOS-SDK/FlurryAds' #Advertising Pod (requires Analytics)
+	# s.dependency 'TapjoySDK','12.2.0'
+	# s.dependency 'Google-Mobile-Ads-SDK','7.43.1'
+	# s.dependency 'InMobiSDK', '~> 7.2.4'
+ #  s.dependency 'imfad', '~> 2.0.3'
 end
