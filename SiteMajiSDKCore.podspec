@@ -98,6 +98,7 @@ Pod::Spec.new do |s|
   s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
 
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 armv7s arm64 arm64e x86_64' }
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -141,6 +142,7 @@ Pod::Spec.new do |s|
   # s.dependency 'Flurry-iOS-SDK/FlurryAds' #Advertising Pod (requires Analytics)
   # s.dependency 'TapjoySDK','12.2.0'
   # s.dependency 'Google-Mobile-Ads-SDK','7.43.1'
-  s.dependency 'InMobiSDK', '~> 9.0.0'
+  s.dependency 'InMobiSDK', '~> 9.1.7'
+  s.dependency 'imfad', '~> 3.8.0'
  #  s.dependency 'imfad', '~> 2.0.3'
 end
