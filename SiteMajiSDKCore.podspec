@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
   s.source_files  = "Classes", "SiteMajiSDK.framework/Headers/**/*.{h,m}"
-  # s.vendored_frameworks = ['SiteMajiSDK.framework','lib/MTGSDK.framework','lib/MTGSDKInterstitialVideo.framework']
+  s.vendored_frameworks = ['SiteMajiSDK.framework','lib/MTGSDK.framework','lib/MTGSDKInterstitialVideo.framework']
   s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
 
@@ -144,5 +144,6 @@ Pod::Spec.new do |s|
   # s.dependency 'Google-Mobile-Ads-SDK','7.43.1'
   s.dependency 'InMobiSDK', '~> 9.1.7'
   s.dependency 'imfad', '~> 3.8.0'
+  s.dependency 'VpadnSDK','5.2.0'
  #  s.dependency 'imfad', '~> 2.0.3'
 end
