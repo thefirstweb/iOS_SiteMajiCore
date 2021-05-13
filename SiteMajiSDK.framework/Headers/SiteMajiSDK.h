@@ -17,3 +17,5 @@ FOUNDATION_EXPORT const unsigned char SiteMajiAbcVersionString[];
 
 #import "SMInterstitialADManager.h"
 #import "SMInterstitialVideoADManager.h"
+#import "SMBannerADManager.h"
+#import "SMNativeADManager.h"
