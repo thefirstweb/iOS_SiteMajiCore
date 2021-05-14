@@ -95,6 +95,7 @@ Pod::Spec.new do |s|
   # s.exclude_files = "Classes/Exclude"
   s.source_files  = "Classes", "SiteMajiSDK.framework/Headers/**/*.{h,m}"
   # s.vendored_frameworks = ['SiteMajiSDK.framework','lib/MTGSDK.framework','lib/MTGSDKInterstitialVideo.framework']
+  s.vendored_frameworks = ['SiteMajiSDK.framework']
   s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
 
