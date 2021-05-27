@@ -26,6 +26,5 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)nativeDidFetch:(UIView *)adView;
 -(void)nativeAdDidClick;
 -(void)nativeAdLoadFailed:(NSError *)error;
--(void)nativeError:(NSError *)error;
 @end
 NS_ASSUME_NONNULL_END
