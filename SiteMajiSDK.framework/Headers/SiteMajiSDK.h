@@ -16,6 +16,5 @@ FOUNDATION_EXPORT const unsigned char SiteMajiAbcVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <SiteMajiAbc/PublicHeader.h>
 
 #import "SMInterstitialADManager.h"
-#import "SMInterstitialVideoADManager.h"
 #import "SMBannerADManager.h"
 #import "SMNativeADManager.h"
